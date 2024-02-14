@@ -36,4 +36,8 @@ This project is a web application that integrates with the Star Wars API (SWAPI)
 
 Open the index.html file in your web browser or set up a local development server.
 
-
+## Usage
+Upon opening the web application, you will see options to select films, planets, and people from the Star Wars universe.
+Click on the checkboxes to select multiple resources.
+Use the "Next" and "Previous" buttons to navigate through multiple pages of data.
+Selected resources will be displayed on the page in an organized and aesthetically pleasing manner.
