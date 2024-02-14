@@ -1,0 +1,142 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: #000;
+    padding: 0 10rem;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.logo img{
+    width: 200px;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.01rem solid #535353;
+    height: 3.8rem;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 230, 0);
+    font-size: 2rem;
+    margin: 0 4rem;
+    
+}
+
+
+.planet{
+    margin-top: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    color: white;
+    
+}
+.planet-card{
+    display: block;
+    width: 20rem;
+    margin-bottom: 10px;
+    height: 16rem;
+    background-color: #5353533a;
+    padding: 10px;
+    font-size: 1.8rem;
+}
+.planet-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+.planet-btn button{
+    background: none;
+    margin-right: 1rem;
+    border: none;
+    color: rgb(255, 230, 0);
+    cursor: pointer;
+}
+/* PEOPLE SECTION */
+.people{
+    margin-top: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    color: white;
+    
+}
+.people-card{
+    display: block;
+    width: 20rem;
+    margin-bottom: 10px;
+    height: 16rem;
+    background-color: #5353533a;
+    padding: 10px;
+    font-size: 1.8rem;
+}
+.people-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+.people-btn button{
+    background: none;
+    margin-right: 1rem;
+    border: none;
+    color: rgb(255, 230, 0);
+    cursor: pointer;
+}
+
+/* FILMS SECTION */
+
+.films{
+    margin-top: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    color: white;
+    
+}
+.films-card{
+    display: block;
+    width: 20rem;
+    margin-bottom: 10px;
+    height: 16rem;
+    background-color: #5353533a;
+    padding: 10px;
+    font-size: 1.8rem;
+}
+.films-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+.films-btn button{
+    background: none;
+    margin-right: 1rem;
+    border: none;
+    color: rgb(255, 230, 0);
+    cursor: pointer;
+}
