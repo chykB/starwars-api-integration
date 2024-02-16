@@ -1,3 +1,16 @@
+// function for the tabs
+const tabs = document.querySelectorAll('nav .tab-btn')
+const sections = document.querySelectorAll('.section')
+
+tabs.forEach((tab, index) =>{
+    tab.addEventListener('click', ()=>{
+        tabs.forEach(tab=>{tab.classList.remove('active')})
+        tab.classList.add('active')
+        sections.forEach(section =>{section.classList.remove('active')})
+        sections[index].classList.add('active')
+    })
+})
+
 //  Function to fetch data from SWAPI
 const planet_ctn = document.getElementById('planet-ctn')
 const previous = document.getElementById('previous')
@@ -15,16 +28,16 @@ async function fetchPlanet(){
     try {
             const results = await fetch(planet_url);
             const data = await results.json();
-            console.log(data);
+            // console.log(data);
             let planets = data.results;
             totalPage = Math.ceil(data.count / 10)
             let output = ' ';
             planets.forEach(item =>{
                 output += `<div class="planet-card">
                                 <h2>${item.name}</h2>
-                                <h5>Climate: ${item.climate}</h5>
-                                <h5>Terrain: ${item.terrain}</h5>
-                                <h5>Population: ${item.population}</h5>
+                                <p>Climate: ${item.climate}</p>
+                                <p>Terrain: ${item.terrain}</p>
+                                <p>Population: ${item.population}</p>
                         
                             </div>`
                 
@@ -79,9 +92,9 @@ async function fetchPeople(){
             people.forEach(item =>{
                 output += `<div class="people-card">
                                 <h2>${item.name}</h2>
-                                <h5>Gender: ${item.gender}</h5>
-                                <h5>Birth Year: ${item.birth_year}</h5>
-                                <h5>Height: ${item.height}</h5>
+                                <p>Gender: ${item.gender}</p>
+                                <p>Birth Year: ${item.birth_year}</p>
+                                <p>Height: ${item.height}</p>
                         
                             </div>`
                 
@@ -129,9 +142,9 @@ async function fetchFilms(){
             films.forEach(item =>{
                 output += `<div class="films-card">
                                 <h2>${item.title}</h2>
-                                <h5>Gender: ${item.producer}</h5>
-                                <h5>Birth Year: ${item.release_date}</h5>
-                                <h5>Height: ${item.episode_id}</h5>
+                                <p>Gender: ${item.producer}</p>
+                                <p>Birth Year: ${item.release_date}</p>
+                                <p>Height: ${item.episode_id}</p>
                         
                             </div>`
                 
