@@ -1,3 +1,5 @@
+<img src"https://www.google.com/search?sca_esv=e87afa569a3be21d&sxsrf=ACQVn08cbb1LWGpSqdaeNFvG508A-kIzww:1708093969848&q=star+wars+api&tbm=isch&source=lnms&sa=X&ved=2ahUKEwia7sLyibCEAxU2bEEAHeyWANIQ0pQJegQIFBAB&biw=1366&bih=641&dpr=1#imgrc=cy9-AkY2goTInM>
+
 # Star Wars API Integration
 
 This project is a web application that integrates with the Star Wars API (SWAPI) to fetch and display information about films, planets, and people from the Star Wars universe. It provides a user-friendly interface for browsing and selecting multiple resources simultaneously.
@@ -8,13 +10,11 @@ This project is a web application that integrates with the Star Wars API (SWAPI)
 - [Technologies Used](#technologies-used)
 - [Setup Instructions](#setup-instructions)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Features
 
 - Fetch and display information about films, planets, and people from the Star Wars universe.
-- Allow users to select multiple resources simultaneously.
 - Pagination support for navigating through multiple pages of data.
 - Error handling for gracefully managing API request failures or incomplete data.
 - Aesthetic user interface design for improved user experience.
