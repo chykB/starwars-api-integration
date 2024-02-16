@@ -1,4 +1,4 @@
-<img src="https://www.google.com/search?sca_esv=e87afa569a3be21d&sxsrf=ACQVn08cbb1LWGpSqdaeNFvG508A-kIzww:1708093969848&q=star+wars+api&tbm=isch&source=lnms&sa=X&ved=2ahUKEwia7sLyibCEAxU2bEEAHeyWANIQ0pQJegQIFBAB&biw=1366&bih=641&dpr=1#imgrc=cy9-AkY2goTInM">
+<img src="https://w7.pngwing.com/pngs/636/21/png-transparent-anakin-skywalker-stormtrooper-star-wars-logo-war-text-logo-war.png" alt="star war logo">
 
 # Star Wars API Integration
 
