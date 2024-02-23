@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./CSS/styles.css">
     <title>Star Wars Api Intergration</title>
 </head>
-<body>
+<body class="body">
     <header>
         <div class="logo"><img src="./asset/image/Star_Wars_Logo..png" alt="logo"></div>
         <nav>
@@ -19,28 +19,27 @@
         </nav>
     </header>
     <main>
-        <section id="planet-ctn" class="section active">
-            <div  class="planet-card">
 
-            </div>
+        <section id="planets-ctn" class="section active">
+            <div  class="planets-card card" data-type="planets" data-id="1"></div>
         </section>
         <section id="people-ctn" class="section">
-            <div  class="people-card">
-            
-            </div>
-            <div class="people-btn">
-                <button id="previous-p">Previous</button>
-                <button id="next-p">Next</button>
-            </div>
+            <div  class="people-card card" data-type="people" data-id="1"></div>
         </section>
         <section id="films-ctn" class="section">
-            <div  class="films-card">
-                
-            </div>
+            <div  class="films-card card" data-type="films" data-id="1"></div>
         </section>
         <div class="planet-btn">
             <button id="previous">Previous</button>
             <button id="next">Next</button>
+        </div>
+
+        <!-- Modal -->
+        <div id="resourceModal" class="modal">
+            <span class="close">&times</span>
+            <div class="modal-content">
+                 
+            </div>
         </div>
     </main>
     
